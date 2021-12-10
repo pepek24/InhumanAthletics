@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <head>
+        <title>Inhuman Athletics | Contact</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="keywords" content="gym, workout, fitness, trainer, physical">
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/thumbnail.ico"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="pageBackground">
+            <header>
+                <nav>
+                    <a href="index.html"><img src="img/logo.png" alt="logo picture"></a>
+                     <ul id="firstnavul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="index.html">Our Gyms</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="author.html">Author</a></li>
+                    </ul>
+                    <ul id="secondnavul">
+                        <li><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a target="_blank" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+             <form id="contactform" action="index.php" method="post">
+                <div id="upperform">
+                    <!-- <label for="formname">First name:</label> -->
+                    <input type="text" id="forname" name="forname" placeholder="Name" required>
+                    <!-- <label for="formsurname">Last name:</label> -->
+                    <input type="text" id="forsurname" name="formsurname" placeholder="Last name">
+                    <!-- <label for="trainingprogram">Choose a program</label> -->
+                    <select name="trainingprogram" id="trainingprogram">
+                        <option value="0"selected>Choose a program</option>
+                        <option value="strength">Strength</option>
+                        <option value="fatloss">Fat-loss</option>
+                        <option value="hypertrophy">Hypertrophy</option>
+                    </select>
+                 </div>
+                <div id="midform">
+                    <input type="tel" id="fortel" name="fortel" placeholder="Phone number">
+                    <input type="text" id="foremail" name="foremail" placeholder="E-mail">
+                    <select name="forexp" id="forexp">
+                        <option value="0" selected>Select your experience</option>
+                        <option value="1">Never trained before</option>
+                        <option value="2">Rookie/amateur</option>
+                        <option value="3">Experienced</option>
+                        <option value="4">Professional athlete/celebrity</option>
+                    </select>
+                </div>
+                <div id="lowerform">
+                    <!-- <label for="message">Message:</label> -->
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <!-- <label for="fornotif"></label>
+                    <input type="radio" id=""> -->
+                    <div id="buttons">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Nevermind</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div id="footertop">
+                <div class="footerinfo">
+                    <h2>Info</h2>
+                    <div class="footrow">
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:+3816695244660">+381669244660</a>
+                    </div>
+                    <div class="footrow">
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:inhumanathletics@gmail.com">inhumanathletics@gmail.com</a>
+                    </div>
+                    <div class="footrow">
+                        <i class="fa fa-location-arrow"></i>
+                        <a href="locations.html">Locations</a>
+                    </div>
+                </div>
+                <div class="footerInfo">
+                    <img src="img/logoxl.png" alt="company logo">
+                </div>
+                <div class="footerinfo" id="uselinks">
+                    <h2>Useful links</h2>
+                    <div class="footrow">
+                        <i class="fa fa-paperclip"></i>
+                        <a href="sitemap.xml">Sitemap</a>
+                    </div>
+                    <div class="footrow">
+                        <i class="fa fa-tasks"></i>
+                        <a href="rss.xml">RSS</a>
+                    </div>
+                    <div class="footrow">
+                        <i class="fa fa-question"></i>
+                        <a href="index.html">FAQ</a>
+                    </div>
+                </div>
+            </div>
+            <div id="footerbottom">
+                <p>&copy;Inhuman Athletics Copyrighted2021, All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
